@@ -1,0 +1,51 @@
+# Citation metadata: GitHub shows a "Cite this repository" button, and Zenodo uses this file
+# for the software record it creates for every GitHub release.
+cff-version: 1.2.0
+message: "If you use this software, please cite the article listed under preferred-citation."
+type: software
+title: "From single-pixel imaging to scattered light imaging: a practical tutorial (notebook)"
+version: "1.0.0"
+date-released: "2026-11-01"          # TODO: date of the GitHub release
+license: CC0-1.0
+repository-code: "https://github.com/dscheidt567/From-single-pixel-imaging-to-scattered-light-imaging-A-practical-tutorial"
+authors:
+  - family-names: Scheidt
+    given-names: Dennis
+    affiliation: "Institute of Neuroscience and Medicine (INM-1), Forschungszentrum Jülich GmbH, Jülich, Germany"
+    orcid: "https://orcid.org/0009-0008-1035-9574"
+abstract: >-
+  Jupyter notebook accompanying the tutorial article "From single-pixel imaging to scattered light
+  imaging: a practical tutorial". It applies single-pixel imaging and compressive sensing to
+  scattered light imaging (SLI) with binary Hadamard illumination patterns, using measured angular
+  scattering profiles of two crossing human optic tract sections: canonical vs. Hadamard sampling,
+  sparsity and incoherence, pattern ordering, iterative and learned linear reconstruction, noise
+  robustness and fiber orientation maps from compressed data. Runs on the free Google Colab CPU runtime.
+keywords:
+  - single-pixel imaging
+  - scattered light imaging
+  - compressive sensing
+  - Hadamard patterns
+  - learned reconstruction
+  - fiber orientation
+  - neuroimaging
+  - tutorial
+references:
+  - type: data
+    title: 'Dataset for "From single-pixel imaging to scattered light imaging: a practical tutorial"'
+    authors:
+      - family-names: Scheidt
+        given-names: Dennis
+    year: 2026
+    doi: "10.5281/zenodo.23825920"
+    publisher:
+      name: Zenodo
+preferred-citation:
+  type: article
+  title: "From single-pixel imaging to scattered light imaging: a practical tutorial"
+  authors:
+    - family-names: Scheidt
+      given-names: Dennis
+      orcid: "https://orcid.org/0009-0008-1035-9574"
+  year: 2026
+  # journal: "..."      # TODO once accepted
+  # doi: "..."          # TODO once published
