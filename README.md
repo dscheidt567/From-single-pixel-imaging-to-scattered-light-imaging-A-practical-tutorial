@@ -41,7 +41,7 @@ The notebook offers two modes, set by `QUICK_RUN` in Section 0.1:
 - **Quick run** (default): uses a small recording of all data the published analysis reads from the raw frames (43 × 43 binned stacks and the four 100 × 100 px ROIs). Settings, figures and tables are the same as in the article. Changing the ROIs or the binning requires the full data.
 - **Full run** (`QUICK_RUN = False`): uses the raw TIFF frames (canonical and Hadamard, N = 16, 32, 64; about 6 GB). The complete run takes about 20–25 min on the free Colab CPU runtime.
 
-Results are written to `results_quick/` or `results/`. In Colab these folders are deleted with the runtime, so download them if you want to keep them.
+Results are written to `results_quick/` or `results/`. In Colab these folders are deleted with the runtime; the last cell of the notebook downloads them as a zip file. After switching between quick and full run, restart the Colab session (*Runtime → Restart session*).
 
 To run the notebook locally:
 
